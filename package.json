@@ -1,0 +1,27 @@
+{
+  "name": "@slybridges/kiss-starter",
+  "version": "0.5.0",
+  "description": "kiss starter boilerplate",
+  "main": "kiss.config.js",
+  "scripts": {
+    "build": "kiss build",
+    "start": "kiss start",
+    "serve": "kiss serve",
+    "watch": "kiss watch"
+  },
+  "keywords": [
+    "kiss",
+    "boilerplate",
+    "static-site"
+  ],
+  "author": "Sylvestre Dupont",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slybridges/kiss-starter.git"
+  },
+  "dependencies": {
+    "@slybridges/kiss": "^0.5.0",
+    "vanilla-lazyload": "^17.3.1"
+  }
+}
