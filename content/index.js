@@ -9,7 +9,7 @@ module.exports = {
   author: {
     name: "Deux Whitecat",
     email: "deux@example.com",
-    //uri: https://example.com/iamdeux
+    //uri: "https://example.com/iamdeux",
   },
   // if you don't want data to cascade down, add "_no_cascade" after an attribute
   // for example, here we want the home page (top level page) to use a specific layout
