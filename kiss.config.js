@@ -152,7 +152,7 @@ module.exports = (config) => {
   //   action: "exec",
   //   description: "Building tailwind CSS",
   //   command:
-  //     "npx tailwindcss-cli build ./theme/css/tailwind.css -o ./public/css/styles.css",
+  //     "npx tailwindcss-cli build -i ./theme/css/tailwind.css -o ./public/css/styles.css",
   // })
 
   /** There is more: see defaultConfig for all options **/
