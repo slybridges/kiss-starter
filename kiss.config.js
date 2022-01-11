@@ -59,7 +59,7 @@ module.exports = (config) => {
   // config.defaults.sortCollectionBy = "-created"
 
   // dateFormat: default format used with dateFormat nunjucks filter
-  // see https://date-fns.org/v2.19.0/docs/format for the list of available options
+  // see https://date-fns.org/docs/format for the list of available options
   // config.defaults.dateFormat =  "MMMM do, yyyy 'at' hh:mm aaa"
 
   // pagePublishedAttribute and pageUpdatedAttribute:
@@ -146,13 +146,13 @@ module.exports = (config) => {
   // })
 
   // Hook example 4: run tailwind css compile
-  // Assumes that you have installed it with npm i --save tailwindcss tailwindcss-cli
+  // Assumes that you have installed it with npm i --save tailwindcss
   // and have a valid tailwind.config.js at the root
   // config.hooks.postWrite.push({
   //   action: "exec",
   //   description: "Building tailwind CSS",
   //   command:
-  //     "npx tailwindcss-cli build -i ./theme/css/tailwind.css -o ./public/css/styles.css",
+  //     "npx tailwindcss -i ./theme/css/tailwind.css -o ./public/css/styles.css",
   // })
 
   /** There is more: see defaultConfig for all options **/
