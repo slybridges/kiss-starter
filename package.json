@@ -21,7 +21,7 @@
     "url": "git+https://github.com/slybridges/kiss-starter.git"
   },
   "dependencies": {
-    "@slybridges/kiss": "^0.5.0",
-    "vanilla-lazyload": "^17.5.0"
+    "@slybridges/kiss": "^0.6.4",
+    "vanilla-lazyload": "^17.8.3"
   }
 }
