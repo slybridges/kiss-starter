@@ -84,7 +84,7 @@ module.exports = (config) => {
   // formats: image format outputs. Supported are: jpeg, webp and avif.
   // If more than one format is included, kiss will generate images for each of them
   // and embed them in a <picture> element
-  config.image.formats = ["jpeg", "webp"] // default is ["jpeg"]
+  config.image.formats = ["original", "webp"] // default is ["original"]
 
   // widths: set of widths in pixel in which to resize the images.
   // Will be used to generate the srcset in <img> or <picture> elements

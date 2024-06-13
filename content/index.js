@@ -11,9 +11,4 @@ module.exports = {
     email: "deux@example.com",
     //uri: "https://example.com/iamdeux",
   },
-  // if you don't want data to cascade down, add "_no_cascade" after an attribute
-  // for example, here we want the home page (top level page) to use a specific layout
-  // but we want all other pages to use the default computeLayout function
-  // from initialPageData to determine the layout
-  layout_no_cascade: "home.njk",
 }
