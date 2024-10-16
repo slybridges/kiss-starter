@@ -1,0 +1,16 @@
+collections_config:
+  pages:
+    path: ''
+    name: Pages
+    icon: wysiwyg
+  content:
+    path: content
+    name: Content
+    icon: wysiwyg
+paths:
+  static: ''
+  uploads: uploads
+timezone: Indian/Mauritius
+markdown:
+  engine: commonmark
+  options: {}
